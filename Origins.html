@@ -23,9 +23,100 @@
             font-size: 50px; /* Font size for the title */
             margin-top: 20px; /* Space above the title */
         }
+        .separator {
+            background-color: #BDA55D; /* Darker ochre background */
+            padding: 20px 0; /* Padding for the ochre section */
+            text-align: center; /* Center the text */
+            width: 100%; /* Full width for the ochre section */
+            margin-top: 20px; /* Space below the title */
+        }
+        .nav-links {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            list-style-type: none; /* Remove bullet points */
+        }
+        .nav-links li {
+            display: inline; /* Display links inline */
+            margin: 0 15px; /* Space between links */
+        }
+        .nav-links a {
+            color: #fff; /* White text for the links */
+            text-decoration: none; /* Remove underline from links */
+            font-size: 18px; /* Font size for the links */
+        }
+        .nav-links a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        .image-container {
+            margin-top: 20px; /* Space above the image */
+            width: 700px; /* Width for the image container */
+            height: auto; /* Auto height */
+        }
+        .image-container img {
+            width: 100%; /* Responsive image width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Optional: rounded corners for the image */
+        }
+        .text-container {
+            margin-left: 20px; /* Space to the left of the text to avoid overlap with the image */
+            max-width: 600px; /* Max width for text container */
+            text-align: left; /* Left-align text */
+        }
+        .text-container h2 {
+            font-size: 24px; /* Subtitle font size */
+            margin-bottom: 10px; /* Space below the subtitle */
+        }
+        .content {
+            display: flex; /* Flexbox for horizontal alignment */
+            margin-top: 20px; /* Space between the separator and content */
+            width: 100%; /* Full width for the content area */
+            justify-content: center; /* Center content horizontally */
+        }
+        .video-container {
+            margin-top: 30px; /* Space above the video */
+            width: 100%; /* Full width for video container */
+            text-align: center; /* Center the video */
+        }
+        iframe {
+            width: 100%; /* Make iframe responsive */
+            max-width: 560px; /* Set max width */
+            height: 315px; /* Set height */
+            border: none; /* Remove border */
+        }
     </style>
 </head>
 <body>
     <h1 class="welcome">Origins</h1> <!-- Title for Origins -->
+    
+    <div class="separator">
+        <ul class="nav-links">
+            <li><a href="https://jonathann254.github.io/Kikuyu/Home.html">Home Page</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20Culture.html">Kikuyu Culture</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/History%20of%20the%20Tribe.html">History</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Origins.html">Origins</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20language.html">Language</a></li>
+        </ul>
+    </div>
+
+    <!-- Content Section with Image and Text -->
+    <div class="content">
+        <!-- Space for Image on the Left Side -->
+        <div class="image-container">
+            <img src="https://i0.wp.com/theaegisinstitute.org/wp-content/uploads/2022/08/image.jpeg?resize=1024%2C775&ssl=1" alt="Image of Kikuyu Tribe"> <!-- Replace with actual image link -->
+        </div>
+
+        <!-- Text Section on the Right Side of the Image -->
+        <div class="text-container">
+            <h2>What are the Origins of the Kikuyu Tribe?</h2> <!-- Subtitle -->
+            <p>The Kikuyu tribe, also known as Agikuyu, is the most populous ethnic group among the people in Kenya and is mainly concentrated in the central highlands. Anthropological research indicates that the Kikuyu belong to the larger group of Bantu-speaking peoples thought to have migrated from West and Central Africa to East Africa around 1,500 years ago. They are said to originate from a mythical ancestor named Gikuyu, who is presumed to be the founder of the tribe. In Kikuyu mythology, Gikuyu was given land by Ngai, the creator god, on the slopes of Mount Kenya, where he settled and began cultivating the rich land. The nine daughters born to him and Mumbi are believed to be Gikuyu's ancestors who then founded the various clans among the Kikuyu. Agriculture forms an important part in the life of these Kikuyu people, who have much attachment with the land and nature. Their religious belief focuses on the existence of an omnipotent creator god by the name Ngai, who is said to have dwelled on Mount Kenya, making this mountain a very sacred place in their culture. Traditional rituals and sacrifices to Ngai were performed under some very sacred trees, among them Mũkũyũ, a sycamore, and Mũgumo, a fig tree, both enhancing their belief in the presence of ancestors who guide and lead their lives. It is this combination of ancestor worship and respect for the creator that has defined the Kikuyu spiritual landscape and maintained their cultural identity through the ages.</p>
+        </div>
+    </div>
+
+    <!-- Space for YouTube video -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/DFDWKdNzX-o" title="Kikuyu Tribe Origins Video" allowfullscreen></iframe> <!-- Replace YOUTUBE_VIDEO_ID with the actual video ID -->
+    </div>
+
 </body>
 </html>
+
