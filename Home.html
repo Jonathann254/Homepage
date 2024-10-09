@@ -18,6 +18,19 @@
             align-items: center; /* Center items horizontally */
             min-height: 100vh; /* Ensure the body takes full height */
         }
+        .nav {
+            background-color: #BDA55D; /* Background color for the navigation bar */
+            width: 100%; /* Full width for the nav */
+            padding: 10px 0; /* Space above and below the nav items */
+            text-align: center; /* Center nav items */
+            margin-bottom: 20px; /* Space between nav and header */
+        }
+        .nav a {
+            color: white; /* White text for nav links */
+            text-decoration: none; /* Remove underline from links */
+            margin: 0 15px; /* Space between nav items */
+            font-size: 20px; /* Font size for nav links */
+        }
         .header {
             display: flex; /* Flexbox for horizontal alignment */
             align-items: center; /* Center items vertically */
@@ -26,7 +39,7 @@
             justify-content: center; /* Center header content */
         }
         .logo {
-            width: 300px; /* Increased width of the logo */
+            width: 100px; /* Adjusted width for the smaller logo */
             height: auto; /* Maintain aspect ratio */
             margin-right: 20px; /* Space between logo and title */
         }
@@ -73,8 +86,15 @@
     </style>
 </head>
 <body>
+    <div class="nav">
+        <a href="https://jonathann254.github.io/Kikuyu/Home.html">Home Page</a>
+        <a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20Culture.html">Kikuyu Culture</a>
+        <a href="https://jonathann254.github.io/Kikuyu/History%20of%20the%20Tribe.html">History</a>
+        <a href="https://jonathann254.github.io/Kikuyu/Origins.html">Origins</a>
+        <a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20language.html">Language</a>
+    </div>
     <div class="header">
-       <img src="https://i.imgur.com/MuDDRUg.png" alt="Kikuyu Culture Image" class="logo"> <!-- Image from Imgur -->
+        <img src="https://i.imgur.com/MuDDRUg.png" alt="Kikuyu Culture Logo" class="logo"> <!-- Adjusted logo size -->
         <h1 class="welcome">Welcome to My Website</h1>
     </div>
     <div class="separator">
@@ -82,13 +102,12 @@
     </div>
     <div class="content">
         <div class="image-container">
-            <img src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/657152/file/657152RmSbqvL9.jpg" alt="Kikuyu Culture Image"> <!-- Make sure the path is correct -->
+            <img src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/657152/file/657152RmSbqvL9.jpg" alt="Kikuyu Culture Image"> <!-- Image from Imgur -->
         </div>
         <div class="text-container">
             <h3>What this site holds</h3>
             <p>On this site, you can find out things about the Kikuyu culture that you may have not known or forgotten, from its history to its cultural activities. I hope to make this site available to multiple styles of learning to educate many.</p>
-            <!-- Additional Image Below the Text -->
-            <img src="https://www.researchgate.net/publication/335226701/figure/fig1/AS:793048090959872@1566088807506/Map-of-Kiambu-County-showing-the-selected-administrative-locations-where-households-were.png" alt="Additional Image" class="additional-image"> <!-- Update this path -->
+            <img src="https://www.researchgate.net/publication/335226701/figure/fig1/AS:793048090959872@1566088807506/Map-of-Kiambu-County-showing-the-selected-administrative-locations-where-households-were.png" alt="Additional Image" class="additional-image">
         </div>
     </div>
 </body>
