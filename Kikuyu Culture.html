@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kikuyu Culture</title>
+    <!-- Link to Google Fonts for Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B4513; /* Brown color for the top section */
+            color: #fff; /* White text for better contrast */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            min-height: 100vh; /* Ensure the body takes full height */
+        }
+        .welcome {
+            text-align: center;
+            font-size: 50px; /* Font size for the title */
+            margin-top: 20px; /* Space above the title */
+        }
+        .separator {
+            background-color: #BDA55D; /* Darker ochre background */
+            padding: 20px 0; /* Padding for the ochre section */
+            text-align: center; /* Center the text */
+            width: 100%; /* Full width for the ochre section */
+            margin-top: 20px; /* Space below the title */
+        }
+        .content {
+            display: flex; /* Flexbox for horizontal alignment */
+            margin-top: 20px; /* Space between the separator and content */
+            width: 100%; /* Full width for the content area */
+            justify-content: flex-start; /* Align content to the left */
+        }
+        .image-container {
+            flex: 0 0 auto; /* Allow image to maintain its size */
+            margin-right: 20px; /* Space between image and text */
+        }
+        .image-container img {
+            width: 600px; /* Set a larger width for the image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Optional: rounded corners for the image */
+        }
+        .text-container {
+            flex: 1; /* Allow text to take available space */
+            text-align: left; /* Left-align the text */
+        }
+        /* Added space for the video */
+        .video-container {
+            margin-top: 20px; /* Space above the video */
+            text-align: center; /* Center the video */
+            width: 100%;
+        }
+        iframe {
+            width: 100%; /* Make iframe responsive */
+            max-width: 560px; /* Set max width */
+            height: 315px; /* Set height */
+            border: none; /* Remove border */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="welcome">Kikuyu Culture</h1> <!-- Title for Kikuyu Culture -->
+    <div class="separator"></div> <!-- Ochre separator -->
+    <div class="content">
+        <div class="image-container">
+            <img src="https://cdn.tuko.co.ke/images/1120/0fgjhs23cg0pum613g.jpeg?v=1" alt="Kikuyu Culture Image"> <!-- Replace with the appropriate image path -->
+        </div>
+        <div class="text-container">
+            <h3>What is the Kikuyu culture?</h3>
+            <p>The Kikuyu is a tribe well known across Kenya being a Bantu ethnic group native to East Africa and who as of 2019 have a population of around 8 million and growing. They are Kenyas biggest ethnic group taking up aproximately 20% of the Kenyan population. The people in the culture call themselves Gikuyu or Agikuyu. In the modern days The Kikuyu are known for making coffee or corn. The Kikuyu believe in an omnipotent creator god named Ngai and that their ancestors continued to have spiritual presence in the earth All of the Gĩkũyũ, Embu, and Kamba use this name. Ngai was also known as Mũrungu by the Meru and Embu tribes, or Mũlungu (a variant of a word referring to the Creator). The title Mwathani or Mwathi (the greatest ruler) comes from the word gwatha meaning to rule or reign with authority, was and is still used. All sacrifices to Ngai were performed under a sycamore tree (Mũkũyũ) and if one was not available, a fig tree (Mũgumo) would be used. The olive tree (Mũtamaiyũ) was a sacred tree for women.[19]. It was mainly Kikuyu people who led the 1950 Mau Mau uprising but that Is a topic for the History tab. Jomo Kenyatta who was apart of the Kikuyu was the first Kenyan Prime Minister (1963–64) and first president (1964–78). Before colonialism Music was a big part in the culture and still is to this day where now there are dedicated to gospel and secular Music. Kikuyu cuisine includes things like Yams, sweet potatoes, Gītheri (maize and beans, after corn was introduced to Africa), Mūkimo (mashed green peas and potatoes), Kīmitū (mashed beans and potatoes), Irio (mashed dry beans, corn and potatoes), Mūtura (sausage made using goat intestines, meat and blood), Ūcūrū (fermented porridge made from flour of corn, millet or sorghum) roast goat, beef, chicken and cooked green vegetables such as collards, spinach and carrots.</p>
+        </div>
+    </div>
+
+    <!-- Space for YouTube video -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/8CG_vgjR3Hk" title="Kikuyu Culture Video" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
