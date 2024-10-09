@@ -23,12 +23,25 @@
             font-size: 50px; /* Font size for the title */
             margin-top: 20px; /* Space above the title */
         }
-        .separator {
+        .nav-bar {
             background-color: #BDA55D; /* Darker ochre background */
-            padding: 20px 0; /* Padding for the ochre section */
+            padding: 10px 0; /* Padding for the nav bar */
+            width: 100%; /* Full width for the nav bar */
             text-align: center; /* Center the text */
-            width: 100%; /* Full width for the ochre section */
-            margin-top: 20px; /* Space below the title */
+        }
+        .nav-bar ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+        }
+        .nav-bar li {
+            display: inline; /* Display links inline */
+            margin: 0 15px; /* Space between links */
+        }
+        .nav-bar a {
+            color: #fff; /* White text for links */
+            text-decoration: none; /* Remove underline from links */
+            font-size: 20px; /* Font size for links */
         }
         .content {
             display: flex; /* Flexbox for horizontal alignment */
@@ -65,14 +78,25 @@
 </head>
 <body>
     <h1 class="welcome">Kikuyu Culture</h1> <!-- Title for Kikuyu Culture -->
-    <div class="separator"></div> <!-- Ochre separator -->
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <ul>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Home.html">Home Page</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20Culture.html">Kikuyu Culture</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/History%20of%20the%20Tribe.html">History</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Origins.html">Origins</a></li>
+            <li><a href="https://jonathann254.github.io/Kikuyu/Kikuyu%20language.html">Language</a></li>
+        </ul>
+    </div>
+
     <div class="content">
         <div class="image-container">
             <img src="https://cdn.tuko.co.ke/images/1120/0fgjhs23cg0pum613g.jpeg?v=1" alt="Kikuyu Culture Image"> <!-- Replace with the appropriate image path -->
         </div>
         <div class="text-container">
             <h3>What is the Kikuyu culture?</h3>
-            <p>The Kikuyu is a tribe well known across Kenya being a Bantu ethnic group native to East Africa and who as of 2019 have a population of around 8 million and growing. They are Kenyas biggest ethnic group taking up aproximately 20% of the Kenyan population. The people in the culture call themselves Gikuyu or Agikuyu. In the modern days The Kikuyu are known for making coffee or corn. The Kikuyu believe in an omnipotent creator god named Ngai and that their ancestors continued to have spiritual presence in the earth All of the Gĩkũyũ, Embu, and Kamba use this name. Ngai was also known as Mũrungu by the Meru and Embu tribes, or Mũlungu (a variant of a word referring to the Creator). The title Mwathani or Mwathi (the greatest ruler) comes from the word gwatha meaning to rule or reign with authority, was and is still used. All sacrifices to Ngai were performed under a sycamore tree (Mũkũyũ) and if one was not available, a fig tree (Mũgumo) would be used. The olive tree (Mũtamaiyũ) was a sacred tree for women.[19]. It was mainly Kikuyu people who led the 1950 Mau Mau uprising but that Is a topic for the History tab. Jomo Kenyatta who was apart of the Kikuyu was the first Kenyan Prime Minister (1963–64) and first president (1964–78). Before colonialism Music was a big part in the culture and still is to this day where now there are dedicated to gospel and secular Music. Kikuyu cuisine includes things like Yams, sweet potatoes, Gītheri (maize and beans, after corn was introduced to Africa), Mūkimo (mashed green peas and potatoes), Kīmitū (mashed beans and potatoes), Irio (mashed dry beans, corn and potatoes), Mūtura (sausage made using goat intestines, meat and blood), Ūcūrū (fermented porridge made from flour of corn, millet or sorghum) roast goat, beef, chicken and cooked green vegetables such as collards, spinach and carrots.</p>
+            <p>The Kikuyu is a tribe well known across Kenya being a Bantu ethnic group native to East Africa and who as of 2019 have a population of around 8 million and growing. They are Kenyas biggest ethnic group taking up approximately 20% of the Kenyan population. The people in the culture call themselves Gikuyu or Agikuyu. In the modern days The Kikuyu are known for making coffee or corn. The Kikuyu believe in an omnipotent creator god named Ngai and that their ancestors continued to have spiritual presence in the earth All of the Gĩkũyũ, Embu, and Kamba use this name. Ngai was also known as Mũrungu by the Meru and Embu tribes, or Mũlungu (a variant of a word referring to the Creator). The title Mwathani or Mwathi (the greatest ruler) comes from the word gwatha meaning to rule or reign with authority, was and is still used. All sacrifices to Ngai were performed under a sycamore tree (Mũkũyũ) and if one was not available, a fig tree (Mũgumo) would be used. The olive tree (Mũtamaiyũ) was a sacred tree for women.[19]. It was mainly Kikuyu people who led the 1950 Mau Mau uprising but that Is a topic for the History tab. Jomo Kenyatta who was a part of the Kikuyu was the first Kenyan Prime Minister (1963–64) and first president (1964–78). Before colonialism, Music was a big part of the culture and still is to this day where now there are dedicated to gospel and secular Music. Kikuyu cuisine includes things like Yams, sweet potatoes, Gītheri (maize and beans, after corn was introduced to Africa), Mūkimo (mashed green peas and potatoes), Kīmitū (mashed beans and potatoes), Irio (mashed dry beans, corn, and potatoes), Mūtura (sausage made using goat intestines, meat and blood), Ūcūrū (fermented porridge made from flour of corn, millet or sorghum), roast goat, beef, chicken, and cooked green vegetables such as collards, spinach, and carrots.</p>
         </div>
     </div>
 
@@ -83,3 +107,5 @@
 
 </body>
 </html>
+
+
